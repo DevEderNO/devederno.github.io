@@ -8,77 +8,70 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="Eder Neves, Matheus Guedes" />
-    <title>Product example · Bootstrap</title>
+    <title>LocPro</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.css" rel="stylesheet" />
+    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet" />
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+    <!-- Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
     <!-- Custom styles for this template -->
     <link href="./css/index.css" rel="stylesheet" />
+
+    <link href="./fontawesome/css/all.css" rel="stylesheet" />
   </head>
   <body>
     <nav class="site-header sticky-top py-1">
       <div
-        class="container d-flex flex-column flex-md-row justify-content-between"
+        class="container d-flex flex-column flex-md-row align-items-center justify-content-between"
       >
-        <a class="py-2" href="#" aria-label="Product">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="d-block mx-auto"
-            role="img"
-            viewBox="0 0 24 24"
-            focusable="false"
-          >
-            <title>Product</title>
-            <circle cx="12" cy="12" r="10" />
-            <path
-              d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"
-            />
-          </svg>
-        </a>
         <!-- <a class="py-2 d-none d-md-inline-block" href="#">Tour</a> -->
+        <a class="py-2 d-none d-md-inline-block" href="#"><h4>LocPro</h4></a>
         <a class="py-2 d-none d-md-inline-block" href="#">Produto</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">O que é?</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">O que é?</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">O que é?</a>
       </div>
     </nav>
 
-    <div
-      class="image-principal position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"
-    >
-      <div class="col-md-5 p-lg-5 my-5">
-        <h2 class="font-weight-normal">Encontre prestadores de serviços de forma simples.</h2>
-        <p class="lead font-weight-normal">
-          Ligando graficas a pestadores de serviços
-        </p>
-        <a class="btn btn-outline-secondary" href="#">Cadastre-se</a>
+    <div class="p-md-3 p-3 col-12 slide-1 flex-row-reverse slide-1-image">
+      <div class="col-sm-12 col-lg-7">
+        <img src="./imagens/grafica.png" class="img-fluid" />
       </div>
+      <div class="col-sm-12 col-lg-5 p-md-5 p-3">
+        <h2 class="font-weight-bold">
+          Encontre profissionais gráficos de forma simples
+        </h2>
+        <p class="lead text-black-50">
+          Ligando gráficas a prestadores de serviços
+        </p>
+        <div class="col-12 d-flex flex-wrap p-0">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Digite seu e-mail"
+              aria-label="Digite seu e-mail"
+              aria-describedby="button-addon2"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button" id="button-addon2">
+                Cadastre-se
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 text-black-50">
+          Disponível para
+
+          <i class="fab fa-apple" style="size: 15px;"></i>
+        </div>
+      </div>
+
       <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
       <!-- <div
         class="product-device product-device-2 shadow-sm d-none d-md-block"
@@ -115,12 +108,61 @@
     <div
       class="image-section-1 position-relative overflow-hidden p-3 p-md-5 text-center bg-light"
     >
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-5 font-weight-normal">Encontre prestadores de serviços de forma simples</h1>
-        <p class="lead font-weight-normal">
-          Ligando graficas a pestadores de serviços
+      <div class="col-sm-10 p-lg-3 mx-auto my-5">
+        <h1 class="display-5 p-lg-3 p-3 font-weight-normal" id="o_que_e">
+          O que é o LocPro?
+        </h1>
+        <p class="lead">
+          LocPro e um app de localização de prestadores de serviços do ramo
+          gráfico. Conectamos profíssionais de todo Brasil com gráficas
+          solicitando serviços, facilitando e agilizando sua necessidade.
         </p>
-        <a class="btn btn-outline-secondary" href="#">Cadastre-se</a>
+        <div
+          class="d-flex flex-row justify-content-lg-between justify-content-sm-center p-3 p-lg-3 flex-wrap"
+        >
+          <div
+            class="p-sm-3 card bg-transparent border-0"
+            style="width: 15rem; min-width: 15rem;"
+          >
+            <img
+              src="./imagens/find_peoples.png"
+              class="img-fluid rounded-circle"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pesquise</h5>
+              <p class="card-text text-black-50">
+                Encontre profissionais para diferentes serviços.
+              </p>
+            </div>
+          </div>
+          <div
+            class="p-sm-3 card bg-transparent border-0"
+            style="width: 15rem;"
+          >
+            <img src="./imagens/map.jpg" class="img-fluid rounded-circle" />
+            <div class="card-body">
+              <h5 class="card-title">Descubra</h5>
+              <p class="card-text text-black-50">
+                Tenha conhecimento sobre os profissionais da sua região.
+              </p>
+            </div>
+          </div>
+          <div
+            class="p-sm-3 card bg-transparent border-0"
+            style="width: 15rem;"
+          >
+            <img
+              src="./imagens/happyman.jpg"
+              class="img-fluid rounded-circle"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Escolha</h5>
+              <p class="card-text text-black-50">
+                Escolha o profissional certo para realizar seus serviços.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
       <!-- <div
@@ -275,12 +317,6 @@
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script>
-      window.jQuery ||
-        document.write(
-          '<script src="./js/vendor/jquery.slim.min.js"><\/script>'
-        );
-    </script>
-    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
   </body>
 </html>
