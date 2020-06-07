@@ -19,13 +19,14 @@ body {
   color: #fff;
   text-decoration: none;
 }
-.brand {
-  font-family: 'Lobster', cursive;
-}
 
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
+
+.brand {
+  font-family: 'Lobster', cursive !important;
+}
 
 .slide-1 {
   /* height: calc(100vh - 70px); */
