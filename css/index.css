@@ -2,6 +2,10 @@
  * Custom translucent site header
  */
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .site-header {
   background-color: rgba(0, 0, 0, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -14,6 +18,9 @@
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
+}
+.brand {
+  font-family: 'Lobster', cursive;
 }
 
 /*
@@ -39,6 +46,12 @@
   border-radius: 21px;
   -webkit-transform: rotate(30deg);
   transform: rotate(30deg);
+}
+
+.image-phone-1 {
+  background-image: url('../imagens/phone-1.png');
+  background-position-x: center;
+  background-position-y: -3rem;
 }
 
 .image-section-1 {

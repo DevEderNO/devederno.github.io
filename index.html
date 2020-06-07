@@ -23,6 +23,12 @@
     <link href="./css/index.css" rel="stylesheet" />
 
     <link href="./fontawesome/css/all.css" rel="stylesheet" />
+
+    <link href="./houver/css/hover.css" rel="stylesheet" media="all" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="site-header sticky-top py-1">
@@ -30,22 +36,24 @@
         class="container d-flex flex-column flex-md-row align-items-center justify-content-between"
       >
         <!-- <a class="py-2 d-none d-md-inline-block" href="#">Tour</a> -->
-        <a class="py-2 d-none d-md-inline-block" href="#"><h4>LocPro</h4></a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Produto</a>
+        <a class="py-2 d-none d-md-inline-block brand" href="#"
+          ><h4>LocPro</h4></a
+        >
+        <!-- <a class="py-2 d-none d-md-inline-block" href="#">Produto</a>
         <a class="py-2 d-none d-md-inline-block" href="#">O que é?</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">O que é?</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">O que é?</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Junte-se</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Sobre</a> -->
       </div>
     </nav>
 
     <div class="p-md-3 p-3 col-12 slide-1 flex-row-reverse slide-1-image">
       <div class="col-sm-12 col-lg-7">
-        <img src="./imagens/grafica.png" class="img-fluid" />
+        <img src="./imagens/grafica.png" class="img-fluid hvr-backward" />
       </div>
       <div class="col-sm-12 col-lg-5 p-md-5 p-3">
-        <h2 class="font-weight-bold">
+        <h1 class="font-weight-bold">
           Encontre profissionais gráficos de forma simples
-        </h2>
+        </h1>
         <p class="lead text-black-50">
           Ligando gráficas a prestadores de serviços
         </p>
@@ -65,63 +73,33 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 text-black-50">
+        <div class="col-sm-12 text-black-50 d-flex flex-wrap">
           Disponível para
-
-          <i class="fab fa-apple" style="size: 15px;"></i>
+          <i class="fab fa-android px-3" style="font-size: 20px;"></i>
+          <i class="fab fa-apple" style="font-size: 20px;"></i>
         </div>
-      </div>
-
-      <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
-      <!-- <div
-        class="product-device product-device-2 shadow-sm d-none d-md-block"
-      ></div> -->
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-light shadow-sm mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-dark shadow-sm mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
       </div>
     </div>
 
     <div
       class="image-section-1 position-relative overflow-hidden p-3 p-md-5 text-center bg-light"
     >
-      <div class="col-sm-10 p-lg-3 mx-auto my-5">
-        <h1 class="display-5 p-lg-3 p-3 font-weight-normal" id="o_que_e">
+      <div
+        class="col-sm-10 p-lg-3 mx-auto my-5 d-flex align-items-center flex-column"
+      >
+        <h1 class="display-5 p-lg-3 p-3 font-weight-light">
           O que é o LocPro?
         </h1>
-        <p class="lead">
+        <p class="lead w-75">
           LocPro e um app de localização de prestadores de serviços do ramo
-          gráfico. Conectamos profíssionais de todo Brasil com gráficas
+          gráfico. Conectamos profissionais de todo Brasil com gráficas
           solicitando serviços, facilitando e agilizando sua necessidade.
         </p>
         <div
-          class="d-flex flex-row justify-content-lg-between justify-content-sm-center p-3 p-lg-3 flex-wrap"
+          class="d-flex flex-row w-100 justify-content-lg-between justify-content-sm-center p-3 p-lg-3 flex-wrap"
         >
           <div
-            class="p-sm-3 card bg-transparent border-0"
+            class="p-sm-3 card bg-transparent border-0 hvr-grow"
             style="width: 15rem; min-width: 15rem;"
           >
             <img
@@ -136,10 +114,10 @@
             </div>
           </div>
           <div
-            class="p-sm-3 card bg-transparent border-0"
+            class="p-sm-3 card bg-transparent border-0 hvr-grow"
             style="width: 15rem;"
           >
-            <img src="./imagens/map.jpg" class="img-fluid rounded-circle" />
+            <img src="./imagens/map.png" class="img-fluid rounded-circle" />
             <div class="card-body">
               <h5 class="card-title">Descubra</h5>
               <p class="card-text text-black-50">
@@ -148,7 +126,7 @@
             </div>
           </div>
           <div
-            class="p-sm-3 card bg-transparent border-0"
+            class="p-sm-3 card bg-transparent border-0 hvr-grow"
             style="width: 15rem;"
           >
             <img
@@ -164,156 +142,88 @@
           </div>
         </div>
       </div>
-      <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
-      <!-- <div
-        class="product-device product-device-2 shadow-sm d-none d-md-block"
-      ></div> -->
     </div>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 d-flex align-items-center justify-content-center flex-wrap">
       <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+        class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden d-flex justify-content-center align-items-center"
       >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+        <div class="my-3 p-3 px-md-5 text-left">
+          <h2 class="display-5">Você e um profissional gráfico?</h2>
+          <p class="lead">Venha fazer parte da nossa plataforma</p>
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="button" id="button-addon2">
+              Junte-se a nós
+            </button>
+          </div>
         </div>
-        <div
-          class="bg-dark shadow-sm mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
       </div>
       <div
-        class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
+        class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
       >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-light shadow-sm mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
+        <img
+          src="./imagens/phone-1.png"
+          class="img-fluid"
+          style="max-height: 680px;"
+        />
       </div>
     </div>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div
+      class="image-section-1 position-relative overflow-hidden p-3 p-md-5 text-center bg-light"
+    >
       <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+        class="col-sm-10 p-lg-3 mx-auto my-5 d-flex align-items-center flex-column"
       >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
+        <h1 class="display-5 p-lg-3 p-3 font-weight-light">
+          Acompanhe nossas redes sociais
+        </h1>
+        <p class="lead w-75">
+          Compartilhamos todas as nossas novidades e queremos que compartilhe
+          sua opinião conosco.
+        </p>
         <div
-          class="bg-white shadow-sm mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+          class="d-flex flex-row w-100 justify-content-lg-between justify-content-sm-center p-3 p-lg-3 mt-5 flex-wrap"
+        >
+          <link />
+          <a
+            href="https://www.linkedin.com/in/eder-neves-de-oliveira-42b881171"
+            class="badge badge-secondary m-2 m-sm-5"
+            ><i class="fab fa-linkedin" style="font-size: 50px;"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/eder.nevesdeoliveira"
+            class="badge badge-secondary m-2 m-sm-5"
+            ><i class="fab fa-facebook-square" style="font-size: 50px;"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/eder_n_oliveira"
+            class="badge badge-secondary m-2 m-sm-5"
+            ><i class="fab fa-instagram-square" style="font-size: 50px;"></i
+          ></a>
+          <a
+            href="https://twitter.com/Masterkaosbr"
+            class="badge badge-secondary m-2 m-sm-5"
+            ><i class="fab fa-twitter-square" style="font-size: 50px;"></i
+          ></a>
+          <a href="" class="badge badge-secondary m-2 m-sm-5"
+            ><i class="fab fa-youtube-square" style="font-size: 50px;"></i
+          ></a>
         </div>
-        <div
-          class="bg-white shadow-sm mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white shadow-sm mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
-      </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
-        </div>
-        <div
-          class="bg-white shadow-sm mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
-        ></div>
       </div>
     </div>
 
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="d-block mb-2"
-            role="img"
-            viewBox="0 0 24 24"
-            focusable="false"
-          >
-            <title>Product</title>
-            <circle cx="12" cy="12" r="10" />
-            <path
-              d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"
-            />
-          </svg>
-          <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+          <h3 class="brand">
+            LocPro <small class="d-block mb-3 text-muted">&copy; 2020</small>
+          </h3>
         </div>
-        <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Cool stuff</a></li>
-            <li><a class="text-muted" href="#">Random feature</a></li>
-            <li><a class="text-muted" href="#">Team feature</a></li>
-            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-            <li><a class="text-muted" href="#">Another one</a></li>
-            <li><a class="text-muted" href="#">Last time</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Resource</a></li>
-            <li><a class="text-muted" href="#">Resource name</a></li>
-            <li><a class="text-muted" href="#">Another resource</a></li>
-            <li><a class="text-muted" href="#">Final resource</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Business</a></li>
-            <li><a class="text-muted" href="#">Education</a></li>
-            <li><a class="text-muted" href="#">Government</a></li>
-            <li><a class="text-muted" href="#">Gaming</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Team</a></li>
-            <li><a class="text-muted" href="#">Locations</a></li>
-            <li><a class="text-muted" href="#">Privacy</a></li>
-            <li><a class="text-muted" href="#">Terms</a></li>
-          </ul>
-        </div>
+        <div class="col-6 col-md"><h5>Termos e condições de uso</h5></div>
+        <div class="col-6 col-md"><h5>Política de privacidade</h5></div>
+        <div class="col-6 col-md"><h5>Empresa</h5></div>
+        <div class="col-6 col-md"><h5>Fale conosco</h5></div>
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
